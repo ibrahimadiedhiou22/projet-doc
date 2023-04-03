@@ -1,0 +1,172 @@
+
+.nav-bar{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 2%;
+    
+    background: white;
+   
+}
+ul{
+    margin-left: 450px;
+}
+
+li{
+   /* color: #ababab;*/
+    float: right;
+   
+    padding-top: 0px;
+    padding-right: 0.6em;
+    padding-bottom: 0px;
+    padding-left: 0.6em; 
+}
+.menu{
+    color: #ababab;
+    text-decoration: none;
+}
+.icon{
+  display: flexbox;
+}
+.texte h1{
+    font-size: 1.8rem;
+    padding: 15px; 
+}
+.texte p{
+    font-size: 1.6rem; 
+    font-weight: lighter;
+}
+
+.h{
+    text-align: center;
+    color: rgb(143, 247, 143);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.125rem;
+    font-weight: 300;
+    margin: 15px;
+}
+.flex-box1{
+    width: 70%;
+    height: 25%;
+    display: flex;  
+    justify-content: center;
+    margin-inline: auto;
+    text-decoration: none;
+    position: relative;
+}
+
+.boxm{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;  
+}
+.box1{
+    background-color:#00CCB1;
+    font-size: larger;
+    color: white;
+}
+.box2{
+    background-color:#3D83DF;
+    font-size: larger;
+    color: white;
+}
+.box3{
+    background-color:#1B2734;
+    font-size: larger;
+    color: white;
+}
+
+.h1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+.p1{
+    color: aquamarine;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin: 30px;
+}
+#pa{
+    font-size: larger; 
+}
+#liste{
+    position: absolute;
+    margin: 400px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: white; 
+}
+#liste1{
+    position: absolute;
+    margin: 350px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: white;
+}
+.log{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    margin: 70px;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section2{
+    background: #D6F5F6;
+}
+.plateforme{
+    color:#00B3A7 ;
+    font-weight: 100;
+    margin: 95px;
+}
+.bureaux{
+    color: #98827C;
+    margin: 95px;
+}
+.flex-box2{
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-items: center;
+}
+.boxn{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: #FFFFFF;
+    background:#FFFFFF ;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 13%;
+}
